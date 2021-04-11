@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+      background-color:gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* #canvas {
+    background-color: navy;
+    color: cornsilk;
+} */
+
+.menu {
+    background-image: url("pong.png") ;
+    height: 800px;
+    width: 1200px;
+    /* top: 100px; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+  }
+
+  .btn {
+      width: 250px;
+      font-size: 55px;
+  }
+
+  h1 {
+      color: cornsilk;
+      font-size: 125px;
+      margin: auto;
+  }
+
+  h5{
+      color: cornsilk;
+      text-align: center;
+      line-height: 40px;
+  }
+
+  label {
+      text-align: center;
+      font-size: 30px;
+      color: navy;
+    }
+    
+    .score {
+      text-align: center;
+  }
