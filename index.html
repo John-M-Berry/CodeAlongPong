@@ -1,50 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Inspired by and adapted from the following: -->
-    <!-- https://thecodingpie.com/post/learn-to-code-ping-pong-game-using-javascript-and-html5 -->
-    <!-- HTML5 Canvas API Crash Course - https://www.youtube.com/watch?v=gm1QtePAYTM -->
+<!-- Inspired by and adapted from the following: -->
+<!-- https://thecodingpie.com/post/learn-to-code-ping-pong-game-using-javascript-and-html5 -->
+<!-- HTML5 Canvas API Crash Course - https://www.youtube.com/watch?v=gm1QtePAYTM -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <title>Game Start Test</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="menu">
         <h1>PONG</h1>
-        <h5>    Inspired by and adapted from the following:<br>
+        <h5> Inspired by and adapted from the following:<br>
             https://thecodingpie.com/post/learn-to-code-ping-pong-game-using-javascript-and-html5<br>
             HTML5 Canvas API Crash Course - https://www.youtube.com/watch?v=gm1QtePAYTM</h4>
 
             <div class="play">
                 To Play:<br>
-                Use the Up & Down arrow keys to control the Orange Player paddle.
+                Use the Up & Down arrow keys to control the Orange Player paddle.<br><br>
+                Score to Play To:<br>
+    
+                <input id="winNum" class="score" type="number" min="5" max="21" value="15">
             </div>
+            
             <h1><a href="pong.html" class="btn btn-info btn-lg">Start</a></h1>
-        </div>
-<!-- 
-        <form>
-            <input type="text" name="username" placeholder="username">
-            <input type="email" name="email" placeholder="email">
-            <input type="submit">
-          </form>
-          <div>
-            <h2>Users:</h2>
-          </div> -->
-
-        <!-- <label>
-            Game Score<br>
-            <form id="form" onsubmit="return false;">
-                <input  type="text" id="userInput">
-                <input  type="submit"    onclick="winNum();">
-                </form>
-            <input id="winNum"  class="score" type="number" min="5" max="21" value="15">
-        </label> -->
-
+    </div>
     <script src="app.js"></script>
 </body>
+
 </html>
