@@ -29,6 +29,13 @@
     align-items: center;   
   }
 
+  .play {
+    background:orange;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
   .btn {
       width: 250px;
       font-size: 55px;
@@ -41,6 +48,9 @@
   }
 
   h5{
+    background-color: navy;
+    padding: 5px;
+    border-radius: 5px;
       color: cornsilk;
       text-align: center;
       line-height: 40px;
